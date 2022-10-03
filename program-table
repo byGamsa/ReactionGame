@@ -1,0 +1,149 @@
+Startet Serial Monitor
+|
+Serial Monitor Ausgabe (Ladescreen)
+|
+Ein und Ausgänge werden festgelegt
+|
+Geht zur Funktion Start
+|
+Serial Monitor Ausgabe (Cleart den Monitor)
+|
+Serial Monitor Ausgabe (Spielauswahl und Regeln)
+|
+While Schleife von gas(Gameauswahl)
+wird ewig wiederholt
+|
+While Schleife wird verlassen sobald ein Taster gedrückt wurde
+Geht zur Entsprechenden Funktion
+|
+Funktion GameA
+|
+Durchschnittszeit wird auf Null gesetzt
+dt( gehört auch zur Durchschnittszeit)
+|
+startd und ended werden auf Null gesetzt
+|
+Serial Monitor Ausgabe (Ladescreen)
+|
+Definiere upTime = vergangene Zeit seit Systemstart
+|
+While Schleife läuft solange bis 60 Sekunden erreicht sind
+|
+startd = Startzeit bis zum drücken eines Taster
+|
+gr wird auf Null gesetzt damit Whileschleife ausgeführt wird
+|
+gibt Zufallswert von 2 bis 7
+Entsprechend der LED Pins
+|
+aktiviert den Pin der zuvor zufällig ausgewählt wurde
+|
+While führt solange durch, bis gr = 1 (Taster gedrückt wurde)
+|
+If Methode wenn entsprechender Taster gedrückt wurde
+|
+Serial Monitor Ausgabe (Cleart den Monitor)
+|
+ended = Endzeit beim drücken des Tasters
+|
+z = Summe von Endzeit – Startzeit
+dt = Alle Durchschnittszeiten zusammen
+durchschnitttime = Rechnet insgesamte Drchschnittszeit von allen Reaktion
+|
+Serial Monitor Ausgabe
+bisher verbrauchte Zeit
+|
+point = Punkte der Runde (zählt einen dazu)
+|
+Serial Monitor Ausgabe
+bisher erreichte Punkte
+|
+Serial Monitor Ausgabe
+Reaktionszeit von diesem Taster
+|
+gr While schleife wird beendet
+(aktiviert sich allerdings immer wieder solange noch keine 60 Sekunden erreicht wurde)
+|
+Nach 60 Sekunden While Schleife schließt
+|
+Serial Monitor Ausgabe (Spielzuende)
+Insgesamt erreichte Punkte
+Durchschnitt aller Reaktionszeiten
+Welche Taster gedrückt werden müssen um:
+Spiel zu wiederholen
+ins Menü wieder zu gelangen
+|
+Punkte wieder auf Null setzen
+|
+While Schleife solange bis Taster gedrückt wird
+|
+If Methode wenn entsprechender Taster gedrückt wird
+|
+|
+|
+Funktion GameB
+|
+Durchschnittszeit wird auf Null gesetzt
+dt( gehört auch zur Durchschnittszeit)
+|
+startd und ended werden auf Null gesetzt
+|
+Serial Monitor Ausgabe (Ladescreen)
+|
+Definiere upTime = vergangene Zeit seit Systemstart
+|
+While Schleife läuft solange bis sPoints(10 Punkte) erreicht wurden
+|
+startd = Startzeit bis zum drücken eines Taster
+|
+gr wird auf Null gesetzt damit Whileschleife ausgeführt wird
+|
+gibt Zufallswert von 2 bis 7
+Entsprechend der LED Pins
+|
+aktiviert den Pin der zuvor zufällig ausgewählt wurde
+|
+While führt solange durch, bis gr = 1 (Taster gedrückt wurde)
+|
+If Methode wenn entsprechender Taster gedrückt wurde
+|
+Serial Monitor Ausgabe (Cleart den Monitor)
+|
+ended = Endzeit beim drücken des Tasters
+|
+z = Summe von Endzeit – Startzeit
+dt = Alle Durchschnittszeiten zusammen
+durchschnitttime = Rechnet insgesamte Drchschnittszeit von allen Reaktion
+|
+Serial Monitor Ausgabe
+bisher verbrauchte Zeit
+|
+point = Punkte der Runde (zählt einen dazu)
+|
+Serial Monitor Ausgabe
+bisher erreichte Punkte
+|
+Serial Monitor Ausgabe
+Reaktionszeit von diesem Taster
+|
+gr While schleife wird beendet
+(aktiviert sich allerdings immer wieder solange noch keine 60 Sekunden erreicht wurde)
+|
+Nach 60 Sekunden While Schleife schließt
+|
+Serial Monitor Ausgabe (Spielzuende)
+Insgesamt erreichte Punkte
+Durchschnitt aller Reaktionszeiten
+Insgesamte Zeit die gebraucht wurde
+Welche Taster gedrückt werden müssen um:
+Spiel zu wiederholen
+ins Menü wieder zu gelangen
+|
+Punkte wieder auf Null setzen
+|
+While Schleife solange bis Taster gedrückt wird
+|
+If Methode wenn entsprechender Taster gedrückt wird
+
+
+
